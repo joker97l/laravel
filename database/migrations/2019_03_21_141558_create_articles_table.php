@@ -28,6 +28,7 @@ class CreateArticlesTable extends Migration
             $table->integer('viewed')->nullable();
             $table->integer('created_by')->nullable();
             $table->integer('modified_by')->nullable();
+            // $table->integer('summ')->nullable();
             $table->timestamps();
         });
     }

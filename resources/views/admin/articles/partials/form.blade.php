@@ -19,6 +19,8 @@
 <select class="form-control" name="categories[]" multiple="">
   @include('admin.articles.partials.categories', ['categories' => $categories])
 </select>
+{{-- <label for="">Сумма</label>
+<textarea class="form-control" id="summ" type="integer" name="summ">{{$article->summ or ""}}</textarea> --}}
 
 <label for="">Краткое описание</label>
 <textarea class="form-control" id="description_short" name="description_short">{{$article->description_short or ""}}</textarea>
