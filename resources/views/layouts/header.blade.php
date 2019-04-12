@@ -19,8 +19,41 @@
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown" role="button" aria-expanded="false">
+                  Запросы на кредитование<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="{{route('bid.index')}}">Все запросы</a>
+                  </li>
+                  <li>
+                    <a href="{{route('bid.create')}}">Создать запрос</a>
+                  </li>
+                </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown" role="button" aria-expanded="false">
+                  Предложения по кредитованию<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#">Все предложения</a>
+                  </li>
+                  <li>
+                    <a href="#">Создать предложение</a>
+                  </li>
+                </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
                 @include('layouts.top_menu', ['categories' => $categories])
             </ul>
+
 
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">

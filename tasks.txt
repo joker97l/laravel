@@ -1,0 +1,5 @@
+  fix view bids/index_admin at admin/layouts/app_admin
+  add maths to bids/create (resolve year percent)
+  add edit for bids
+  add button and view to show bid
+  add user name to bid`s show

@@ -58,6 +58,10 @@
                             <li><a href="{{route('admin.user_managment.user.index')}}">Пользователи</a></li>
                           </ul>
                         </li>
+                        <li>
+                          <!--Доделать маршрут к bid.index_admin -->
+                          <a href="{{route('bid.index')}}">Запросы на кредит</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
