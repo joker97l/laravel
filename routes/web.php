@@ -34,3 +34,6 @@ Route::get('/welcome', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home/get-json', 'HomeController@getJson');
+Route::get('/home/data-chart', 'HomeController@chartData');
+Route::get('/home/random-chart', 'HomeController@chartRandom');
